@@ -5,16 +5,16 @@ Crea una tabla con 10 servicios reales. Incluye enlace oficial y justifica respo
 
 | Servicio | Proveedor | Nivel (IaaS/PaaS/SaaS) | Enlace oficial | ¿Qué gestiona el proveedor? | ¿Qué gestiona el equipo/usuario? |
 |---------|----------|-------------------------|----------------|-----------------------------|----------------------------------|
-| Amazon EC2 | AWS | IaaS | https://aws.amazon.com/ec2/ | Hardware físico, red, virtualización y data centers. | Sistema operativo, parches, aplicaciones y datos. |
+| Amazon EC2 | AWS | IaaS | https://aws.amazon.com/ec2 | Hardware físico, red, virtualización y data centers. | Sistema operativo, parches, aplicaciones y datos. |
 | Google Compute Engine | Google Cloud | IaaS | https://cloud.google.com/compute | Infraestructura, red, discos y virtualización. | SO, configuración, aplicaciones y datos. |
-| Azure Virtual Machines | Microsoft Azure | IaaS | https://azure.microsoft.com/services/virtual-machines/ | Servidores físicos, red, almacenamiento base. | Sistema operativo, software y datos. |
-| Amazon S3 | AWS | IaaS (Storage) | https://aws.amazon.com/s3/ | Infraestructura de almacenamiento, durabilidad y disponibilidad. | Organización, permisos y contenido de los datos. |
-| AWS Elastic Beanstalk | AWS | PaaS | https://aws.amazon.com/elasticbeanstalk/ | Infraestructura, runtime, escalado y balanceo. | Código de la aplicación y configuración lógica. |
+| Azure Virtual Machines | Microsoft Azure | IaaS | https://azure.microsoft.com/services/virtual-machines | Servidores físicos, red, almacenamiento base. | Sistema operativo, software y datos. |
+| Amazon S3 | AWS | IaaS (Storage) | https://aws.amazon.com/s3 | Infraestructura de almacenamiento, durabilidad y disponibilidad. | Organización, permisos y contenido de los datos. |
+| AWS Elastic Beanstalk | AWS | PaaS | https://aws.amazon.com/elasticbeanstalk | Infraestructura, runtime, escalado y balanceo. | Código de la aplicación y configuración lógica. |
 | Google App Engine | Google Cloud | PaaS | https://cloud.google.com/appengine | Plataforma de ejecución, escalado automático. | Desarrollo de la aplicación y datos. |
-| Heroku | Salesforce | PaaS | https://www.heroku.com/ | Infraestructura, contenedores y runtime. | Código, dependencias y base de datos. |
-| Microsoft 365 | Microsoft | SaaS | https://www.microsoft.com/microsoft-365/ | Aplicaciones, servidores, seguridad y actualizaciones. | Contenido, usuarios y configuración. |
-| Google Workspace | Google | SaaS | https://workspace.google.com/ | Aplicaciones, mantenimiento y disponibilidad. | Gestión de usuarios y documentos. |
-| Salesforce CRM | Salesforce | SaaS | https://www.salesforce.com/ | Aplicación completa, infraestructura y seguridad. | Datos de clientes y reglas de negocio. |
+| Heroku | Salesforce | PaaS | https://www.heroku.com | Infraestructura, contenedores y runtime. | Código, dependencias y base de datos. |
+| Microsoft 365 | Microsoft | SaaS | https://www.microsoft.com/microsoft-365 | Aplicaciones, servidores, seguridad y actualizaciones. | Contenido, usuarios y configuración. |
+| Google Workspace | Google | SaaS | https://workspace.google.com | Aplicaciones, mantenimiento y disponibilidad. | Gestión de usuarios y documentos. |
+| Salesforce CRM | Salesforce | SaaS | https://www.salesforce.com | Aplicación completa, infraestructura y seguridad. | Datos de clientes y reglas de negocio. |
 
 
 ## 🅱️ Tarea B — Funciones principales de cloud (arquitectura)
