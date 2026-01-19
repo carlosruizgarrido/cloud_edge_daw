@@ -95,3 +95,5 @@ El equipo de desarrollo solo gestiona el código y la configuración de la aplic
 
 - Salesforce CRM  
   https://www.salesforce.com/
+
+Carlos Manuel Ruiz Garrido                                                                                                                        19/01/26
