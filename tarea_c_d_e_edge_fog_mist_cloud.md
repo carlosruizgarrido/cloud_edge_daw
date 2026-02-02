@@ -2,30 +2,30 @@
 
 ## 🅲 Tarea C — Edge Computing y relación con Cloud
 **Definición (3–5 líneas):**
-. Edge Computing se refiere al procesamiento de datos más cerca de la fuente de origen, como dispositivos o sensores, en lugar de depender exclusivamente de servidores centralizados en la nube. Esto permite una mayor eficiencia, menor latencia y optimización en el uso del ancho de banda. La relación con la computación en la nube radica en que, mientras el edge realiza tareas locales de procesamiento, la nube actúa como un almacenamiento o plataforma de procesamiento más potente y centralizado, trabajando de manera complementaria.
+Edge Computing se refiere al procesamiento de datos más cerca de la fuente de origen, como dispositivos o sensores, en lugar de depender exclusivamente de servidores centralizados en la nube. Esto permite una mayor eficiencia, menor latencia y optimización en el uso del ancho de banda. La relación con la computación en la nube radica en que, mientras el edge realiza tareas locales de procesamiento, la nube actúa como un almacenamiento o plataforma de procesamiento más potente y centralizado, trabajando de manera complementaria.
 
 **Relación Edge ↔ Cloud (5–8 líneas):**
-. La relación entre Edge Computing y Cloud Computing es complementaria y se basa en un modelo híbrido que maximiza la eficiencia y el rendimiento. Edge Computing permite procesar los datos en el lugar donde se generan, reduciendo la latencia y el uso del ancho de banda, mientras que la nube proporciona almacenamiento masivo y capacidades de procesamiento de alto nivel. El edge realiza tareas de procesamiento en tiempo real o local, mientras que la nube puede encargarse de análisis más complejos, almacenamiento a largo plazo o decisiones estratégicas basadas en grandes volúmenes de datos. Esta sinergia optimiza tanto la velocidad como la escalabilidad, permitiendo a las organizaciones gestionar grandes cantidades de datos distribuidos de manera eficiente.
+La relación entre Edge Computing y Cloud Computing es complementaria y se basa en un modelo híbrido que maximiza la eficiencia y el rendimiento. Edge Computing permite procesar los datos en el lugar donde se generan, reduciendo la latencia y el uso del ancho de banda, mientras que la nube proporciona almacenamiento masivo y capacidades de procesamiento de alto nivel. El edge realiza tareas de procesamiento en tiempo real o local, mientras que la nube puede encargarse de análisis más complejos, almacenamiento a largo plazo o decisiones estratégicas basadas en grandes volúmenes de datos. Esta sinergia optimiza tanto la velocidad como la escalabilidad, permitiendo a las organizaciones gestionar grandes cantidades de datos distribuidos de manera eficiente.
 
 **Ejemplo real:**
-. Un ejemplo real de la relación entre Edge Computing y Cloud Computing es el caso de los vehículos autónomos. Los sensores y cámaras en el vehículo generan grandes cantidades de datos en tiempo real, como la detección de obstáculos, señales de tráfico y condiciones de la carretera. Estos datos se procesan localmente en el vehículo (en el edge) para tomar decisiones inmediatas, como frenar o cambiar de dirección.
+Un ejemplo real de la relación entre Edge Computing y Cloud Computing es el caso de los vehículos autónomos. Los sensores y cámaras en el vehículo generan grandes cantidades de datos en tiempo real, como la detección de obstáculos, señales de tráfico y condiciones de la carretera. Estos datos se procesan localmente en el vehículo (en el edge) para tomar decisiones inmediatas, como frenar o cambiar de dirección.
 
 Sin embargo, para análisis más complejos, como el aprendizaje automático para mejorar los algoritmos de conducción o la recopilación de datos de todos los vehículos para detectar patrones globales, los datos se envían a la nube. Allí, se procesan a gran escala y se actualizan los modelos que luego se envían de vuelta al vehículo para mejorar su rendimiento. Esta integración entre edge y cloud permite a los vehículos autónomos tomar decisiones rápidas y precisas mientras optimiza el uso de recursos en la nube para tareas más intensivas.
 
 **Fuentes oficiales (mín. 2):**
-- . Gartner: Según el informe de Gartner sobre "Edge Computing", la adopción de esta tecnología está acelerando debido a la necesidad de procesamiento de datos más rápido y eficiente cerca del origen de los mismos, complementando la infraestructura en la nube para una mayor escalabilidad y optimización de recursos. (Fuente: Gartner, "Edge Computing Will Accelerate the Cloud's Evolution", 2020)
+- Gartner: Según el informe de Gartner sobre "Edge Computing", la adopción de esta tecnología está acelerando debido a la necesidad de procesamiento de datos más rápido y eficiente cerca del origen de los mismos, complementando la infraestructura en la nube para una mayor escalabilidad y optimización de recursos. (Fuente: Gartner, "Edge Computing Will Accelerate the Cloud's Evolution", 2020)
 
-- . Amazon Web Services (AWS): AWS ofrece soluciones de Edge Computing a través de su plataforma AWS IoT Greengrass, la cual permite ejecutar funciones de computación, análisis y almacenamiento en dispositivos locales, mientras mantiene una conexión con la nube para gestión, análisis global y almacenamiento a largo plazo. (Fuente: AWS, "What is AWS IoT Greengrass", 2023)
+- Amazon Web Services (AWS): AWS ofrece soluciones de Edge Computing a través de su plataforma AWS IoT Greengrass, la cual permite ejecutar funciones de computación, análisis y almacenamiento en dispositivos locales, mientras mantiene una conexión con la nube para gestión, análisis global y almacenamiento a largo plazo. (Fuente: AWS, "What is AWS IoT Greengrass", 2023)
 
 ## 🅳 Tarea D — Fog vs Mist (niveles y zonas de aplicación)
 **Definición Fog (2–4 líneas):**
-. El Fog Computing es un modelo de computación descentralizado que extiende los servicios de la nube hacia el borde de la red, procesando los datos de manera más cercana al usuario o dispositivo. A diferencia del Edge, el Fog puede involucrar múltiples capas de procesamiento entre los dispositivos finales y la nube, mejorando la eficiencia y reduciendo la latencia en aplicaciones como IoT y redes inteligentes.
+El Fog Computing es un modelo de computación descentralizado que extiende los servicios de la nube hacia el borde de la red, procesando los datos de manera más cercana al usuario o dispositivo. A diferencia del Edge, el Fog puede involucrar múltiples capas de procesamiento entre los dispositivos finales y la nube, mejorando la eficiencia y reduciendo la latencia en aplicaciones como IoT y redes inteligentes.
 
 **Definición Mist (2–4 líneas):**
-. Mist Computing es un modelo de computación que lleva aún más cerca del dispositivo final el procesamiento de datos, generalmente en los propios sensores o dispositivos de bajo nivel. Es una extensión del Fog Computing, pero se enfoca en la computación a nivel de red de acceso, proporcionando un procesamiento extremadamente cercano a los usuarios o sistemas finales, con el objetivo de minimizar la latencia y el uso de ancho de banda.
+Mist Computing es un modelo de computación que lleva aún más cerca del dispositivo final el procesamiento de datos, generalmente en los propios sensores o dispositivos de bajo nivel. Es una extensión del Fog Computing, pero se enfoca en la computación a nivel de red de acceso, proporcionando un procesamiento extremadamente cercano a los usuarios o sistemas finales, con el objetivo de minimizar la latencia y el uso de ancho de banda.
 
 **Esquema (ASCII o Mermaid recomendado):**
-. graph LR
+graph LR
     A[Nube (Cloud)] --> B[Fog Computing]
     B --> C[Mist Computing]
     C --> D[Dispositivos finales (Sensores/Actuadores)]
@@ -61,7 +61,7 @@ Incluye mínimo 3 ventajas (recomendado 5), con explicación + ejemplo.
    Ejemplo: Un sistema de gestión de energía en una fábrica que utiliza la nube puede recibir actualizaciones automáticas de seguridad y nuevas funcionalidades sin necesidad de intervención manual, asegurando la continuidad operativa sin interrupciones.
 
 **Fuente oficial (mín. 1):**
-- . Una fuente oficial que respalda estas ventajas de la nube en sistemas conectados es el informe de **Amazon Web Services (AWS)**, que describe cómo la infraestructura en la nube permite escalabilidad, accesibilidad remota, procesamiento de grandes volúmenes de datos y seguridad avanzada para aplicaciones IoT. (Fuente: AWS, "The Benefits of Cloud Computing for IoT", 2023)
+- Una fuente oficial que respalda estas ventajas de la nube en sistemas conectados es el informe de **Amazon Web Services (AWS)**, que describe cómo la infraestructura en la nube permite escalabilidad, accesibilidad remota, procesamiento de grandes volúmenes de datos y seguridad avanzada para aplicaciones IoT. (Fuente: AWS, "The Benefits of Cloud Computing for IoT", 2023)
 
 ## 📚 Fuentes (enlaces oficiales)
 (Recopila aquí todos los enlaces oficiales usados)
@@ -76,3 +76,5 @@ Incluye mínimo 3 ventajas (recomendado 5), con explicación + ejemplo.
    [https://aws.amazon.com/iot/greengrass/](https://aws.amazon.com/iot/greengrass/)
 
 Estas fuentes proporcionan información detallada sobre las ventajas y aplicaciones de la computación en la nube, así como su relación con tecnologías como el Edge y el IoT.
+
+Carlos Ruiz Garrido 02/02/2026
